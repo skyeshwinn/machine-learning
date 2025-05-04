@@ -22,9 +22,9 @@ if st.button("Predict"):
         "type": transaction_type,
         "amount": amount,
         "oldbalanceOrg": oldbalanceOrg,
-        "newBalanceOrig": newBalanceOrig,
+        "newbalanceOrig": newbalanceOrig,
         "oldbalanceDest": oldbalanceDest,
-        "newBalanceDest": newBalanceDest
+        "newbalanceDest": newbalanceDest
     }])
 
     prediction = model.predict(input_data)[0]
