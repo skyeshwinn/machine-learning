@@ -6,7 +6,7 @@ model = joblib.load("fraud_detection_pipeline.pkl")
 
 st.title("Fraud Detection Prediction App")
 
-st.markdown("Please enter the transaction details and use the predict button")
+st.markdown("Please enter the transaction details and click on the Predict button")
 
 st.divider()
 
